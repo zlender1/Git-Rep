@@ -17,7 +17,16 @@ int main()
 	
 	int b_zahl[4] = { 10, 20, 30, 40 };		//implizit deklarirung und initializirung
 
-	printf("%i", b_zahl[2]);
+	//printf("%i\n", b_zahl[2]);
+
+
+	//array liste ausgeben nur ueber schleife erfolgen wobei laufvariable ueber index
+
+	for (int i = 0; i < 4; i++)
+	{
+		printf("%i\n", b_zahl[i]);
+	}
+
 
 	//int a = 1;
 
