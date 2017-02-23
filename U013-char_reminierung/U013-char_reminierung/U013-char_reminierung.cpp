@@ -8,20 +8,30 @@ int main()
 {
 	//n oder x terminierung
 
-	char c;
-
+	char c = 0;
+	
 	printf("Char:\t");
 	scanf("%c", &c);
 
 	while (c != 110 && c != 120)
 	{
-		char d;
 		printf("Keep diging, almost there. Char:\t");
-		scanf(" %c", &d); 
+		scanf(" %c", &c);
+	}
+
+	printf("There, you made it.\n");
+	
+	
+	for (printf("Keep diging, almost there! Char:\t"); (c != 110 && c !=120); )
+	{
+		scanf(" %c", &c);
 	}
 	
 	printf("There, you made it.\n");
-
+	
+	
 	return 0;
+
+	
 }
 
