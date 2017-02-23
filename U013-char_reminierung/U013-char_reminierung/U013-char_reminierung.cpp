@@ -13,13 +13,13 @@ int main()
 	printf("Char:\t");
 	scanf("%c", &c);
 
-	while (c != 110 || c != 120)
+	while (c != 110 && c != 120)
 	{
-	
+		char d;
 		printf("Keep diging, almost there. Char:\t");
-		scanf(" %c", &c);
+		scanf(" %c", &d); 
 	}
-
+	
 	printf("There, you made it.\n");
 
 	return 0;
