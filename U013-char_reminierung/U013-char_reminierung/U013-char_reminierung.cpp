@@ -10,10 +10,17 @@ int main()
 
 	char c;
 
-	for (printf("Char:\t"); c != 110 || c != 120; )
+	printf("Char:\t");
+	scanf("%c", &c);
+
+	while (c != 110 || c != 120)
 	{
+	
+		printf("Keep diging, almost there. Char:\t");
 		scanf(" %c", &c);
 	}
+
+	printf("There, you made it.\n");
 
 	return 0;
 }

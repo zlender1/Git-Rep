@@ -1,8 +1,7 @@
-// U000-mix_uebungen.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
+// U-zahlen_vergleich.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
 //
 
-#include <stdio.h>
-#include <float.h>
+#include "stdafx.h"
 
 
 int main()
@@ -24,7 +23,8 @@ int main()
 		scanf("%d", &j);
 	}
 
-	
-	return 0;
+	printf("Thats right.\n");
+
+    return 0;
 }
 
